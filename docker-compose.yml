@@ -6,5 +6,5 @@ services:
     image: structurizr/lite
     ports:
       - "8083:8080"
-#    volumes:
-#      - architecture/:/usr/local/structurizr/
+    volumes:
+      - ./architecture:/usr/local/structurizr/

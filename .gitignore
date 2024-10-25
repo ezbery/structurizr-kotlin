@@ -40,3 +40,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Strukturizr files ###
+architecture/.structurizr/*
