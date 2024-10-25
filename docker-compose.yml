@@ -1,0 +1,10 @@
+version: '3.1'
+
+services:
+  strukturizr:
+    container_name: strukturizr
+    image: structurizr/lite
+    ports:
+      - "8083:8080"
+#    volumes:
+#      - architecture/:/usr/local/structurizr/
