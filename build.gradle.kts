@@ -10,6 +10,7 @@ repositories {
 }
 
 dependencies {
+    implementation("com.structurizr:structurizr-client:3.0+")
     testImplementation(kotlin("test"))
 }
 
